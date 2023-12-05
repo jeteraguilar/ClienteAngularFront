@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class ClienteService {
   // Url da api
-  private url:string = 'http://localhost:8080';
+  private url:string = 'https://api-cliente-c994e4d1380b.herokuapp.com/';
 
   // Construtor
   constructor(private http:HttpClient) {}
